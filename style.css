@@ -1,4 +1,4 @@
-/* SumitSaha.me Inspired Theme */
+/* SumitSaha.me Inspired Theme (Static Photo) */
 
 :root {
     --bg-page: #f8fafc; /* slate-50 */
@@ -207,7 +207,7 @@ body {
     color: var(--text-primary);
 }
 
-/* Profile Image Ring */
+/* Dynamic Profile Image */
 .hero-image-wrapper {
     display: flex;
     justify-content: center;
@@ -221,12 +221,12 @@ body {
 }
 
 .profile-ring {
-    background: conic-gradient(#34a853 0deg 90deg, #fbbc05 90deg 180deg, #4285f4 180deg 270deg, #ea4335 270deg 360deg);
+    /* Ash color cycle gradient */
+    background: conic-gradient(#cbd5e1, #475569, #cbd5e1);
     padding: 5px;
     border-radius: 9999px;
     display: inline-block;
-    /* Optional rotation animation */
-    animation: rotate 10s linear infinite;
+    animation: rotate 8s linear infinite;
 }
 
 @keyframes rotate {
@@ -242,8 +242,7 @@ body {
     height: 160px;
     object-fit: cover;
     display: block;
-    /* Counter-rotate the image so it stays upright */
-    animation: counter-rotate 10s linear infinite;
+    animation: counter-rotate 8s linear infinite;
 }
 
 @keyframes counter-rotate {
@@ -259,7 +258,7 @@ body {
     }
 }
 
-/* Divider */
+/* Divider - Removed earlier by user request, keeping it subtle if they want Sumit style, but I'll make it almost invisible or keep it as requested in Sumit style */
 .divider {
     height: 1px;
     background-color: var(--border-light);
