@@ -4,111 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeonta Roy Turjo | Portfolio</title>
+    
+    <!-- Google Fonts for Newspaper Aesthetic -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav id="navbar">
-        <div class="nav-content">
-            <div class="logo">JRT<span>.</span></div>
-            <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="container">
+        <header class="site-header">
+            <h1 class="site-title">Jeonta Roy Turjo</h1>
+            <p class="site-subtitle">Computer Science & Engineering Student</p>
+            <div class="header-divider"></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#profiles">Profiles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-divider double"></div>
+        </header>
 
-    <main>
-        <section id="hero" class="section reveal">
-            <div class="hero-content">
-                <p class="greeting">Hello, I'm</p>
-                <h1 class="name">Jeonta Roy Turjo</h1>
-                <div class="roles-container">
-                    <span class="role-prefix">I am a </span>
-                    <span id="typewriter" class="typewriter"></span><span class="cursor">|</span>
+        <main class="main-content">
+            <article class="hero-section">
+                <div class="hero-text">
+                    <h2>I'm Jeonta Roy Turjo, a Computer Science & Engineering student passionate about problem-solving and software development.</h2>
+                    <p class="drop-cap">A</p>
+                    <p>s a dedicated student at American International University Bangladesh, I am deeply invested in modern web development, competitive programming, and creating impactful software products. I believe in the power of continuous learning and sharing knowledge within the developer community.</p>
+                    <p>My journey in technology started with a curiosity about how things work, and it has evolved into a passion for building robust applications and solving complex algorithmic challenges.</p>
                 </div>
-                <div class="hero-actions">
-                    <a href="#contact" class="btn primary-btn">Get In Touch</a>
-                    <a href="#experience" class="btn secondary-btn">View My Work</a>
+                <div class="hero-image-container">
+                    <img src="./dp.jpeg" alt="Portrait of Jeonta Roy Turjo" class="hero-image">
+                    <figcaption>Dhaka, Bangladesh</figcaption>
                 </div>
-            </div>
-            <div class="hero-shapes">
-                <div class="shape shape-1"></div>
-                <div class="shape shape-2"></div>
-            </div>
-        </section>
+            </article>
 
-        <section id="about" class="section reveal">
-            <div class="container">
-                <h2 class="section-title">About <span>Me</span></h2>
-                <div class="about-content">
-                    <div class="about-text glass-card">
-                        <p>
-                            I am a passionate <strong>Computer Science Student</strong> with a strong drive for innovation and leadership. 
-                            I thrive on solving complex problems through code and creating digital experiences that make an impact.
-                        </p>
-                        <p>
-                            Beyond academia, I am an active entrepreneur, constantly exploring new ideas and building products that empower users. My journey in tech is driven by curiosity and a commitment to continuous learning.
-                        </p>
+            <div class="content-grid">
+                <section id="profiles" class="sidebar-section">
+                    <h3 class="section-title">Research & Profiles</h3>
+                    <ul class="profile-links">
+                        <li><a href="https://github.com/jrturjo" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/jeonta-roy-turjo?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a href="https://leetcode.com/u/user2452Xo/" target="_blank" rel="noopener noreferrer">LeetCode</a></li>
+                        <li><a href="https://www.codechef.com/users/jrturjo41" target="_blank" rel="noopener noreferrer">CodeChef</a></li>
+                    </ul>
+                </section>
+
+                <section id="education" class="main-column">
+                    <h3 class="section-title">Education</h3>
+                    
+                    <div class="education-item">
+                        <h4>American International University Bangladesh</h4>
+                        <p class="degree">Computer Science and Engineering</p>
+                        <p class="date">2023 &ndash; Present</p>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <section id="experience" class="section reveal">
-            <div class="container">
-                <h2 class="section-title">My <span>Experience</span></h2>
-                <div class="timeline">
-                    <div class="timeline-item glass-card">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Co-Founder and CEO</h3>
-                            <h4>Lookasy</h4>
-                            <p>Leading the vision and execution at Lookasy. Driving innovation, managing teams, and scaling our product to deliver exceptional value to our users.</p>
-                        </div>
+                    <div class="education-item">
+                        <h4>Saidpur Govt. Science College</h4>
+                        <p class="degree">Higher Secondary Certificate (HSC)</p>
+                        <p class="date">2013 &ndash; 2020</p>
                     </div>
-                    <div class="timeline-item glass-card">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Founder</h3>
-                            <h4>Learn With Turjo (LWT)</h4>
-                            <p>Established an educational platform dedicated to helping others learn and grow in the tech space. Creating content, mentoring, and fostering a community of learners.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item glass-card">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Computer Science Student</h3>
-                            <h4>Academic Journey</h4>
-                            <p>Pursuing a rigorous curriculum in computer science, focusing on software engineering, algorithms, and emerging technologies.</p>
-                        </div>
-                    </div>
-                </div>
+                </section>
             </div>
-        </section>
-
-        <section id="contact" class="section reveal">
-            <div class="container">
-                <h2 class="section-title">Let's <span>Connect</span></h2>
-                <div class="contact-content glass-card">
-                    <p class="contact-desc">
-                        Whether you want to discuss a project, explore potential collaborations, or just say hi, my inbox is always open.
-                    </p>
-                    <a href="mailto:hello@jrturjo.me" class="btn primary-btn btn-large">Say Hello</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Jeonta Roy Turjo. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+        </main>
+        
+        <footer class="site-footer">
+            <div class="header-divider"></div>
+            <p>&copy; 2026 Jeonta Roy Turjo. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
