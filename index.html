@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeonta Roy Turjo | Portfolio</title>
     
-    <!-- Modern Google Fonts -->
+    <!-- Modern Monospace Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -16,110 +16,158 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">JRT<span>.</span></a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div class="page-background">
+        <!-- Background Glow Effects -->
+        <div class="glow glow-left"></div>
+        <div class="glow glow-right"></div>
+        
+        <div class="container">
+            <header class="header">
+                <div class="logo-container">
+                    <div class="logo-circle">J</div>
+                    <span class="logo-text">RT</span>
+                </div>
+                <nav class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </header>
+
+            <main class="central-card">
+                <!-- Hero Section -->
+                <section id="about" class="hero-section">
+                    <div class="hero-content">
+                        <h1 class="name">Jeonta Roy Turjo</h1>
+                        <h2 class="role">Computer Science & Engineering Student</h2>
+                        <p class="bio">
+                            I am deeply invested in modern web development, competitive programming, and creating impactful software products. I believe in the power of continuous learning and sharing knowledge within the developer community.
+                        </p>
+                        
+                        <div class="location-badge">
+                            <i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com/jrturjo" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-btn">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/jeonta-roy-turjo?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-btn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://leetcode.com/u/user2452Xo/" target="_blank" rel="noopener noreferrer" title="LeetCode" class="social-btn">
+                                <i class="fas fa-code"></i>
+                            </a>
+                            <a href="https://www.codechef.com/users/jrturjo41" target="_blank" rel="noopener noreferrer" title="CodeChef" class="social-btn">
+                                <i class="fas fa-laptop-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image-wrapper">
+                        <div class="profile-ring">
+                            <img src="./dp.jpeg" alt="Jeonta Roy Turjo" class="profile-img">
+                        </div>
+                    </div>
+                </section>
+
+                <div class="divider"></div>
+
+                <!-- Career Story / Experience -->
+                <section id="experience" class="section-container">
+                    <div class="section-header">
+                        <h3 class="section-title">Career Story</h3>
+                        <div class="tab-buttons">
+                            <button class="tab-btn active">Experience</button>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-list">
+                        <div class="experience-item">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="job-title">Co-founder</h4>
+                                    <div class="company-name">Lookasy</div>
+                                </div>
+                                <div class="exp-date">Present</div>
+                            </div>
+                            <p class="exp-desc">Driving innovation and building scalable solutions as a co-founder.</p>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="job-title">Founder</h4>
+                                    <div class="company-name">LogicLabs</div>
+                                </div>
+                                <div class="exp-date">Present</div>
+                            </div>
+                            <p class="exp-desc">Leading the development and strategy of LogicLabs.</p>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="job-title">ICT Instructor</h4>
+                                    <div class="company-name">Freelance / Education</div>
+                                </div>
+                                <div class="exp-date">Past</div>
+                            </div>
+                            <p class="exp-desc">Taught ICT to HSC students, helping them grasp core computer science concepts and practical skills.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="divider"></div>
+
+                <!-- Education -->
+                <section id="education" class="section-container">
+                    <h3 class="section-title">Education</h3>
+                    
+                    <div class="experience-list">
+                        <div class="experience-item">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="job-title">American International University Bangladesh</h4>
+                                    <div class="company-name">Computer Science and Engineering</div>
+                                </div>
+                                <div class="exp-date">2023 &ndash; Present</div>
+                            </div>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <div class="exp-header">
+                                <div>
+                                    <h4 class="job-title">Saidpur Govt. Science College</h4>
+                                    <div class="company-name">Higher Secondary Certificate (HSC)</div>
+                                </div>
+                                <div class="exp-date">2013 &ndash; 2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <div class="divider"></div>
+                
+                <!-- Skills -->
+                <section id="skills" class="section-container pb-8">
+                    <h3 class="section-title">Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-pill">Web Development</span>
+                        <span class="skill-pill">Competitive Programming</span>
+                        <span class="skill-pill">Software Engineering</span>
+                        <span class="skill-pill">Entrepreneurship</span>
+                        <span class="skill-pill">Teaching</span>
+                    </div>
+                </section>
+
+            </main>
+            
+            <footer class="footer">
+                <p>&copy; 2026 Jeonta Roy Turjo. Built with passion.</p>
+            </footer>
         </div>
-    </nav>
-
-    <main class="main-content">
-        <!-- Hero Section -->
-        <section id="about" class="hero-section">
-            <div class="hero-text">
-                <p class="greeting">Hi, I'm</p>
-                <h1 class="name">Jeonta Roy Turjo</h1>
-                <h2 class="role">Computer Science & Engineering Student</h2>
-                <p class="bio">
-                    I am deeply invested in modern web development, competitive programming, and creating impactful software products. I believe in the power of continuous learning and sharing knowledge within the developer community.
-                </p>
-                <div class="social-links">
-                    <a href="https://github.com/jrturjo" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-icon">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/jeonta-roy-turjo?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-icon">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://leetcode.com/u/user2452Xo/" target="_blank" rel="noopener noreferrer" title="LeetCode" class="social-icon">
-                        <i class="fas fa-code"></i>
-                    </a>
-                    <a href="https://www.codechef.com/users/jrturjo41" target="_blank" rel="noopener noreferrer" title="CodeChef" class="social-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="hero-image-wrapper">
-                <div class="image-border-animated">
-                    <img src="./dp.jpeg" alt="Jeonta Roy Turjo" class="profile-img">
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="content-section">
-            <h3 class="section-title">Experience</h3>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>Co-founder</h4>
-                        <h5 class="company">Lookasy</h5>
-                        <p>Driving innovation and building scalable solutions as a co-founder.</p>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>Founder</h4>
-                        <h5 class="company">LogicLabs</h5>
-                        <p>Leading the development and strategy of LogicLabs.</p>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>ICT Instructor</h4>
-                        <h5 class="company">Freelance / Education</h5>
-                        <p>Taught ICT to HSC students, helping them grasp core computer science concepts and practical skills.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education" class="content-section">
-            <h3 class="section-title">Education</h3>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>American International University Bangladesh</h4>
-                        <h5 class="company">Computer Science and Engineering</h5>
-                        <span class="date">2023 &ndash; Present</span>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h4>Saidpur Govt. Science College</h4>
-                        <h5 class="company">Higher Secondary Certificate (HSC)</h5>
-                        <span class="date">2013 &ndash; 2020</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2026 Jeonta Roy Turjo. Built with passion.</p>
-    </footer>
+    </div>
 </body>
 </html>
