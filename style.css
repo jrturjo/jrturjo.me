@@ -1,15 +1,23 @@
 /* SumitSaha.me Inspired Theme (Static Photo) */
 
 :root {
-    --bg-page: #f8fafc; /* slate-50 */
+    --bg-page: #f8fafc;
+    /* slate-50 */
     --bg-card: #ffffff;
-    --text-primary: #0f172a; /* slate-900 */
-    --text-secondary: #475569; /* slate-600 */
-    --text-tertiary: #64748b; /* slate-500 */
-    --border-color: #e2e8f0; /* slate-200 */
-    --border-light: #f1f5f9; /* slate-100 */
-    --accent-bg: #1e293b; /* slate-800 */
-    --pill-bg: #f1f5f9; /* slate-100 */
+    --text-primary: #0f172a;
+    /* slate-900 */
+    --text-secondary: #475569;
+    /* slate-600 */
+    --text-tertiary: #64748b;
+    /* slate-500 */
+    --border-color: #e2e8f0;
+    /* slate-200 */
+    --border-light: #f1f5f9;
+    /* slate-100 */
+    --accent-bg: #1e293b;
+    /* slate-800 */
+    --pill-bg: #f1f5f9;
+    /* slate-100 */
 }
 
 * {
@@ -43,7 +51,7 @@ body {
     position: absolute;
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, rgba(255,255,255,0) 70%);
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
     z-index: 0;
     border-radius: 50%;
     pointer-events: none;
@@ -339,6 +347,16 @@ body {
     color: var(--text-secondary);
 }
 
+.ssc {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.jsc {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
 .exp-date {
     font-size: 0.875rem;
     color: var(--text-tertiary);
@@ -384,12 +402,12 @@ body {
     .central-card {
         padding: 1.5rem;
     }
-    
+
     .hero-content {
         max-width: 100%;
         text-align: center;
     }
-    
+
     .social-links {
         justify-content: center;
     }
